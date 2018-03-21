@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "codemirror": "^5.36.0",
+    "vuep": "^0.8.0"
+  }
+}
