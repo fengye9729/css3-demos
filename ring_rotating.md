@@ -2,16 +2,6 @@
 
 <script v-pre type="text/x-template" id="blink">
 <style>
-  
-@keyframes donut {
-  0% {
-    transform: rotate(0deg)
-  }
-  100% {
-    transform: rotate(360deg)
-  }
-}
-
 .circle {
   width: 2rem;
   height: 2rem;

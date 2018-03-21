@@ -27,3 +27,26 @@
 .vuep-preview, .vuep-error{
   padding: 8px;
 }
+
+
+
+@keyframes donut {
+  0% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(360deg)
+  }
+}
+
+
+@keyframes bouncing-loader {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-1rem);
+    opacity: 0.1;
+  }
+}

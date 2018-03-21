@@ -14,5 +14,6 @@
 - **动画**
   - [弹跳加载](/bounce_load.md)
   - [环形旋转](/ring_rotating.md)
+  - [悬停下划线](/hover_underline.md)
 - **媒体特性与Responsive设计**
 - **嵌入Web字体**
