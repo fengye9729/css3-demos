@@ -3,15 +3,15 @@
   height: initial;
 }
 
-.CodeMirror-hscrollbar {
-  overflow: hidden;
-}
-
 .vuep-editor, .vuep-preview, .vuep-error{
   width: 100%;
   height: initial;
 }
-
+.vuep-preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .markdown-section{
   max-width: 929px;
 }
@@ -30,6 +30,17 @@
 
 
 
+@keyframes bouncing-loader {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-1rem);
+    opacity: 0.1;
+  }
+}
+
 @keyframes donut {
   0% {
     transform: rotate(0deg)
@@ -39,14 +50,11 @@
   }
 }
 
-
-@keyframes bouncing-loader {
+@keyframes playing_pause {
   from {
-    transform: translateY(0);
-    opacity: 1;
+    transform: translateX(-100px);
   }
   to {
-    transform: translateY(-1rem);
-    opacity: 0.1;
+    transform: translateX(100px);
   }
 }

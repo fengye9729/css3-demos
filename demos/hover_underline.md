@@ -1,12 +1,15 @@
+# 悬停下划线
+
 <vuep template="#hover_underline"></vuep>
 
 <script v-pre type="text/x-template" id="hover_underline">
 <style>
-p {
+.hover_undeline {
   position:relative;
   display: inline-block;
 }
-p:after {
+
+.hover_undeline::after {
   position: absolute;
   width: 100%;
   content: '';
@@ -17,11 +20,15 @@ p:after {
   transform: scaleX(0);
   transition: transform 0.25s ease-out;
 }
-p:hover:after {
+
+.hover_undeline:hover:after {
   transform: scaleX(1);
 }
+
 </style>
 <template>
-<p>hello world</p>
+<div class="hover_undeline">hello world</div>
 </template>
+<script>
+</script>
 </script>

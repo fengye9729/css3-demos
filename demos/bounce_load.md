@@ -1,8 +1,20 @@
-弹跳加载
+# 弹跳加载
 
 <vuep template="#ring-rotating"></vuep>
 <script v-pre type="text/x-template" id="ring-rotating">
 <style>
+
+@keyframes bouncing-loader {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-1rem);
+    opacity: 0.1;
+  }
+}
+
 .bouncing-loader {
   display: flex;
   justify-content: center;
