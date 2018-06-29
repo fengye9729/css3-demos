@@ -1,18 +1,11 @@
 - **动画**
-  - [弹跳加载](/demos/bounce_load.md)
-  - [环形旋转](/demos/ring_rotating.md)
-  - [悬停下划线](/demos/hover_underline.md)
+  - [弹跳加载](/demos/animation/bounce_load.md)
+  - [环形旋转](/demos/animation/ring_rotating.md)
+  - [悬停下划线](/demos/animation/hover_underline.md)
+  - [播放与暂停](/demos/animation/playing_pause.md)
 - **布局**
-  - [清除浮动](/demos/clear_float.md)
-  - [截断文字](/demos/cutof_text.md)
-  - [水平居中](/demos/lever_center.md)
-  - [垂直居中](/demos/vertical_center.md)
-  - [水平垂直居中](/demos/lever_vertical_center.md)
-- **背景**
-- **文本**
-- **盒模型**
-- **伸缩布局盒模型**
-- **多列布局**
-- **变形**
-- **媒体特性与Responsive设计**
-- **嵌入Web字体**
+  - [清除浮动](/demos/layout/clear_float.md)
+  - [截断文字](/demos/layout/cutof_text.md)
+  - [水平居中](/demos/layout/lever_center.md)
+  - [垂直居中](/demos/layout/vertical_center.md)
+  - [水平垂直居中](/demos/layout/lever_vertical_center.md)

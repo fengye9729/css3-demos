@@ -1,6 +1,7 @@
 
-<h3 align="center">CSS3-demos</h3>
-我是一个粉刷匠，粉刷本领强。我要把那新房子，刷得很漂亮。刷了房顶又刷墙，刷子飞舞忙。 哎哟我的小鼻子，变呀变了样。
+# CSS3-demos
+
+记录常用的 css demos
 
 ## includes
 * 选择器
