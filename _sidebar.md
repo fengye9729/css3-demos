@@ -1,17 +1,15 @@
 - **动画**
   - [弹跳加载](/demos/bounce_load.md)
   - [环形旋转](/demos/ring_rotating.md)
-  - [播放与暂停](/demos/playing_pause.md)
-- **过渡**
   - [悬停下划线](/demos/hover_underline.md)
-- **选择器**
-  - 1.1
-  - 1.2
-- **边框**
-  - 2.2
+- **布局**
+  - [清除浮动](/demos/clear_float.md)
+  - [截断文字](/demos/cutof_text.md)
+  - [水平居中](/demos/lever_center.md)
+  - [垂直居中](/demos/vertical_center.md)
+  - [水平垂直居中](/demos/lever_vertical_center.md)
 - **背景**
 - **文本**
-- **颜色特性**
 - **盒模型**
 - **伸缩布局盒模型**
 - **多列布局**

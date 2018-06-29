@@ -58,3 +58,57 @@
     transform: translateX(100px);
   }
 }
+.clear-float::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.clear-float div {
+  width: 100px;
+  height: 100px;
+  background: #ccc;
+  float: left;
+}
+.cutof-text p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100px;
+}
+.inline-child {
+  text-align: center;
+}
+.block-element {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #ccc;
+  margin: 0 auto;
+}
+.block-children {
+  text-align: center
+}
+.block-children .child {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #ccc;
+  display: inline-block;
+}
+.lever-vertical-center {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lever-vertical-center .child{
+  width: 100px;
+  height: 100px;
+  border: 2px solid #ccc;
+}
+.vertical-center {
+  /* height: 100px; */
+}
+.vertical-center .inline-child span{
+  height: 50px;
+  line-height: 50px;
+  /* padding: 20px; */
+}
