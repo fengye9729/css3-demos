@@ -1,8 +1,9 @@
 - **动画**
   - [弹跳加载](/demos/bounce_load.md)
   - [环形旋转](/demos/ring_rotating.md)
-  - [悬停下划线](/demos/hover_underline.md)
   - [播放与暂停](/demos/playing_pause.md)
+- **过渡**
+  - [悬停下划线](/demos/hover_underline.md)
 - **选择器**
   - 1.1
   - 1.2
@@ -15,6 +16,5 @@
 - **伸缩布局盒模型**
 - **多列布局**
 - **变形**
-- **过渡**
 - **媒体特性与Responsive设计**
 - **嵌入Web字体**
