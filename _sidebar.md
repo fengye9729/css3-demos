@@ -9,3 +9,12 @@
   - [水平居中](/demos/layout/lever_center.md)
   - [垂直居中](/demos/layout/vertical_center.md)
   - [水平垂直居中](/demos/layout/lever_vertical_center.md)
+- **奇葩需求**
+  - [修改鼠标手势图标](/demos/demand/modify_mouse.md)
+  - [box-shadow 三边阴影](/demos/demand/box_shadow.md)
+  - [currentColor](/demos/demand/current_color.md)
+  - [png 图片如何改颜色](/demos/demand/png_change_color.md)
+  - [chrome 中设置小于 12px 的字体](/demos/demand/font_size.md)
+  - [0.5px border 如何操作](/demos/demand/border_px.md)
+  - [border 颜色渐变](/demos/demand/border_color.md)
+  - [css3 画小箭头](/demos/demand/the_arrow.md)
